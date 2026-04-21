@@ -1,0 +1,10 @@
+echo "Enter two numbers:"
+read a b
+
+if [ $b -eq 0 ]
+then
+    echo "Division not possible"
+else
+    div=$((a / b))
+    echo "Division = $div"
+fi
